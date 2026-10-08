@@ -28,3 +28,10 @@ let myObj={
 function myFunction(){
     console.log("this is my function");
 };
+
+// ##########
+
+// premtive(stack)& non-premptive (heap);
+const name="batman";
+changename= name;
+console.log(changename);
